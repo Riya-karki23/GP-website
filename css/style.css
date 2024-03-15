@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-color{
+    color:white !important;
+    font-weight: 400;
+    font-size: 17px !important;
+    padding:0 20px;
+    
+}
+.text-color:hover{
+    color:yellow !important;
+}
+
+.navbar{
+    background-color:black;
+    padding: 16px 0;
+    opacity: 0.5;
+    z-index:999;
+}
+.ul-padding{
+    padding: 0 50px;
+}
+.logo-size{
+    font-size: 25px !important;
+}
+.a-padding{
+    padding-right: 15px !important;
+}
+
+/*************************************main section*****************************************/
+
+.main{
+    width: 100% !important;
+    padding: 0px !important;
+}
+
+.li-padding{
+    padding-left: 18em !important;
+}
+
+.h2-text-size{
+    font-size: 60px;
+    font-weight: bold;
+    
+}
+
+.hero-section{
+    height: 100%;
+    width: 100%;
+    /* background-image: url("https://bootstrapmade.com/demo/templates/Gp/assets/img/hero-bg.jpg"); */
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://bootstrapmade.com/demo/templates/Gp/assets/img/hero-bg.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* .hero-section::after{
+    content:" ";
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+} */
+.hero-p-padding{
+    padding-top: 12em ;
+}
+
+.box-padding{
+    padding: 60px 100px ;
+    border: 1px solid white;
+    font-size: 23px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.box-padding:hover{
+    border: 1px solid yellow;
+    color: yellow;
+}
+.boxes{
+    padding-top: 30px;
+    padding-bottom: 70px !important;
+}
+/*****************************************Page-2**********************************************************/
+.page2-margin{
+padding: 80px 0;
+}
+
+.left-text{
+    max-width: 50%;
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+
+.right-image{
+    max-height: 50%;
+    height: 477px;
+    width: 636px;
+    background-image: url("https://bootstrapmade.com/demo/templates/Gp/assets/img/about.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/***********************page3**********************************/
+.left-image{
+        max-height: 50%;
+        height: 477px;
+        width: 636px;
+        background-image: url("	https://bootstrapmade.com/demo/templates/Gp/assets/img/features.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .page-3-padding{
+        padding: 50px 0;
+        max-width: 90%;
+    }
+
+    .li-text-decor{
+        list-style: none;
+    }
+    .right-text{
+        padding-top: 40px;
+        padding-left: 40px;
+    }
+    /**************************************page4*****************************************/
+.img-1-size{
+    height: 500px;
+    width: 500px;
+    
+}
+.img-1{
+    background-color: red;
+    max-width:800px;
+    margin: auto;
+}
+
+.page-4-div{
+   
+   padding:40px 100px;
+}
+
+
+.heading-page4{
+    padding-top:50px;
+    font-weight: bold;
+}
+/***************************Footer******************************/
+.footer-section{
+background-color:#151515;
+padding: 60px;
+}
+
+.footer-bottom{
+    background-color: #000;
+    
+}
+
+@media(max-width:678px){
+    .left-text{
+       max-width: 100%;
+    }
+    .card{
+        width: 80%;
+    }
+}
